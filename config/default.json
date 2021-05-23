@@ -1,7 +1,0 @@
-{
-    "mongoURI":"mongodb://localhost:27017/mern?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
-    "publicKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAL/gEs4Or5B8WJhxvUo1q1GvKFW/Jb7N\nvzhloonfPlSt4qhUI2zeGMBNEMexLhvJX8GRSsodqJefAahFrW1ti9sCAwEAAQ==\n-----END PUBLIC KEY-----",
-    "privateKey":"-----BEGIN RSA PRIVATE KEY-----\nMIIBPAIBAAJBAL/gEs4Or5B8WJhxvUo1q1GvKFW/Jb7NvzhloonfPlSt4qhUI2ze\nGMBNEMexLhvJX8GRSsodqJefAahFrW1ti9sCAwEAAQJAHBv2hUtveupMjGC1S2bb\nZ0cS0KUFIZPAvMFe83XKCtuA8otVprvbaNklgzK4si5tdg7ccWWUTWAmwzbyId/M\n0QIhAP73y/dvW4jrNuLqXSaroOsP2rZYJKjCL5T22KeH0XcjAiEAwKbmE6vFiad5\n/8e5aHGl3ZqIn+dfh6/8r6m6T/lXv+kCIQDaBzgp7NXPbaRPwq3JZbaDi9kxWIpw\nrS1XKwb1q9TZFQIhAIOfhAJckZIDAq9m3Z4mR5SoSEA37GTgMFw0Mj8BtJpBAiEA\nuu/sW42K4NwqHkPFRZ4fa7BhqY5pWDlndsYFlY/FRbI=\n-----END RSA PRIVATE KEY-----",
-    "githubClientId":"9b5e4f6df4356e16fbb1",
-    "githubSecretId":"a4ec1c2a1b8e85fbfd78f67a982021282d97535e"
-}

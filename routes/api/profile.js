@@ -6,6 +6,7 @@ const User = require('../../models/Users')
 const {check,validationResult} = require('express-validator')
 const {assignObjectNotNullToBaseObject} = require('../../utils/helpService')
 const request = require('request')
+const config = require('config')
 // @route GET /api/profile/me
 // @desc  Get user profile by send token
 // @access Private
@@ -201,7 +202,7 @@ router.delete('/education/:edu_id',verifyToken,async (req,res)=>{
 })
 
 // @route GET /api/profile/github/:username
-// @desc  GET user repo from github
+// @desc  GET user repos from github
 // @access Public
 router.get('/github/:username',(req,res)=>{
     try{
@@ -211,6 +212,11 @@ router.get('/github/:username',(req,res)=>{
             method:'get',
             headers:{'user-agent':'node.js'}
         }
+        request(options,(err,response,body)=>{
+            if(err)throw err
+            if(response.statusCode!==200)return res.status(404).json({msg:'No Github Profile found'})
+            res.json(JSON.parse(body))
+        })
     }catch(err){
         console.error(err.message)
         res.status(500).send('Server error')

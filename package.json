@@ -4,10 +4,10 @@
   "description": "Learn about mern stack for full-stack",
   "main": "server.js",
   "scripts": {
-    "start":"node server",
-    "server":"nodemon server",
-    "client":"npm start --prefix client-react",
-    "dev":"concurrently \"npm run server \" \"npm run client\""
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client-react",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
   },
   "author": "Phanudet",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.10",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "concurrently": "^6.1.0",

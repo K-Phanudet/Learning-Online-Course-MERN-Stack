@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server",
+    "server": "nodemon server --ignore client-react",
     "client": "npm start --prefix client-react",
     "dev": "concurrently \"npm run server \" \"npm run client\""
   },
